@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="TestEx">
+    <classes>
+      <class name="org.loginpageexecution.LoginPageExecution"/>
+    </classes>
+  </test> <!-- TestEx -->
+  <test name="TestEx(failed)">
+    <classes>
+      <class name="org.loginpageexecution.LoginPageExecution">
+        <methods>
+          <include name="send"/>
+        </methods>
+      </class> <!-- org.loginpageexecution.LoginPageExecution -->
+    </classes>
+  </test> <!-- TestEx(failed) -->
+</suite> <!-- Failed suite [Suite] -->
